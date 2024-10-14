@@ -1,0 +1,24 @@
+# Blender MTL File: 'sofa.blend'
+# Material Count: 2
+
+newmtl 1
+Ns 29.834716
+Ka 1.000000 1.000000 1.000000
+Kd 0.053447 0.025021 0.007255
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Fabric_124
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd assets\\materials\\fabric_124_e021ba57-0636-4311-a1c0-df75c85a19a8\\textures_2k\\fabric_124_albedo-2K.jpg
+map_Ns assets\\materials\\fabric_124_e021ba57-0636-4311-a1c0-df75c85a19a8\\textures_2k\\fabric_124_roughness-2K.jpg
