@@ -1,0 +1,24 @@
+﻿  alberca.cpp
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(125,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(151,27): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(151,27): warning C4244:         with
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(151,27): warning C4244:         [
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(151,27): warning C4244:             T=float
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(151,27): warning C4244:         ]
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(152,27): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(152,27): warning C4244:         with
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(152,27): warning C4244:         [
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(152,27): warning C4244:             T=float
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(152,27): warning C4244:         ]
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(153,27): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(153,27): warning C4244:         with
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(153,27): warning C4244:         [
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(153,27): warning C4244:             T=float
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(153,27): warning C4244:         ]
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(285,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(286,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(290,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(291,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(293,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\AreaAlberca\alberca.cpp(294,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  AreaAlberca.vcxproj -> C:\Users\mardl\Desktop\proyectoGrafica_251\Alberca\AreaAlberca\Debug\AreaAlberca.exe
