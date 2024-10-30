@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{877C92F8-7F1C-4E7F-857E-EF7F2C46A44D}|AreaAlberca\\AreaAlberca.vcxproj|C:\\Users\\mardl\\Desktop\\proyectoGrafica_251\\AreaAlberca\\alberca.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{877C92F8-7F1C-4E7F-857E-EF7F2C46A44D}|AreaAlberca\\AreaAlberca.vcxproj|solutionrelative:AreaAlberca\\alberca.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877C92F8-7F1C-4E7F-857E-EF7F2C46A44D}|AreaAlberca\\AreaAlberca.vcxproj|C:\\Users\\mardl\\Desktop\\proyectoGrafica_251\\AreaAlberca\\Shader\\shaderAlb.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{877C92F8-7F1C-4E7F-857E-EF7F2C46A44D}|AreaAlberca\\AreaAlberca.vcxproj|solutionrelative:AreaAlberca\\Shader\\shaderAlb.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877C92F8-7F1C-4E7F-857E-EF7F2C46A44D}|AreaAlberca\\AreaAlberca.vcxproj|C:\\Users\\mardl\\Desktop\\proyectoGrafica_251\\AreaAlberca\\Shader\\shaderAgua.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{877C92F8-7F1C-4E7F-857E-EF7F2C46A44D}|AreaAlberca\\AreaAlberca.vcxproj|solutionrelative:AreaAlberca\\Shader\\shaderAgua.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "shaderAgua.vs",
+              "DocumentMoniker": "C:\\Users\\mardl\\Desktop\\proyectoGrafica_251\\AreaAlberca\\Shader\\shaderAgua.vs",
+              "RelativeDocumentMoniker": "AreaAlberca\\Shader\\shaderAgua.vs",
+              "ToolTip": "C:\\Users\\mardl\\Desktop\\proyectoGrafica_251\\AreaAlberca\\Shader\\shaderAgua.vs",
+              "RelativeToolTip": "AreaAlberca\\Shader\\shaderAgua.vs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-30T16:10:20.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "shaderAlb.frag",
+              "DocumentMoniker": "C:\\Users\\mardl\\Desktop\\proyectoGrafica_251\\AreaAlberca\\Shader\\shaderAlb.frag",
+              "RelativeDocumentMoniker": "AreaAlberca\\Shader\\shaderAlb.frag",
+              "ToolTip": "C:\\Users\\mardl\\Desktop\\proyectoGrafica_251\\AreaAlberca\\Shader\\shaderAlb.frag",
+              "RelativeToolTip": "AreaAlberca\\Shader\\shaderAlb.frag",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-30T16:10:18.065Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "alberca.cpp",
               "DocumentMoniker": "C:\\Users\\mardl\\Desktop\\proyectoGrafica_251\\AreaAlberca\\alberca.cpp",
               "RelativeDocumentMoniker": "AreaAlberca\\alberca.cpp",
-              "ToolTip": "C:\\Users\\mardl\\Desktop\\proyectoGrafica_251\\AreaAlberca\\alberca.cpp",
-              "RelativeToolTip": "AreaAlberca\\alberca.cpp",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAG0AAAAEAAAA",
+              "ToolTip": "C:\\Users\\mardl\\Desktop\\proyectoGrafica_251\\AreaAlberca\\alberca.cpp*",
+              "RelativeToolTip": "AreaAlberca\\alberca.cpp*",
+              "ViewState": "AQIAALwAAAAAAAAAAAAAANgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-25T04:47:46.823Z",
               "EditorCaption": ""

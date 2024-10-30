@@ -101,6 +101,8 @@ int main( )
     Shader shader( "Shader/modelLoading.vs", "Shader/modelLoading.frag" );
     Shader lightingShader("Shader/lighting.vs", "Shader/lighting.frag");
     Shader lampShader("Shader/lamp.vs", "Shader/lamp.frag");
+    Shader AlbShader("Shader/shaderAlb.vs", "Shader/shaderAlb.frag");
+    
 
     
     // Load models
@@ -134,7 +136,6 @@ int main( )
         glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         
-        shader.Use();
         lightingShader.Use();
 
         glUniform1i(glGetUniformLocation(lightingShader.Program, "diffuse"), 0);
@@ -193,29 +194,31 @@ int main( )
 
         // Draw the loaded model
         glm::mat4 model(1);
-        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         
         //Dibujo de modelo de casa
         glm::mat4 modelAlberca(1);
         //modelAlberca = glm::rotate(modelAlberca, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f)); //Rotación de casa
         //modelAlberca = glm::translate(modelAlberca, glm::vec3(0.0f, 0.0f, 0.0f));  // Traslada casa a otra posición
         //modelAlberca = glm::scale(modelAlberca, glm::vec3(0.2f, 0.2f, 0.2f));       // Escala el modelo 
-        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(modelAlberca));
-        areaAlberca.Draw(shader);
+        glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(modelAlberca));
+        areaAlberca.Draw(lightingShader);
 
      
+        AlbShader.Use();
+
         glm::mat4 modelAgua(1);
         glEnable(GL_BLEND); //Activa la funcionalidad para trabajar en el canal alfa
         glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(glGetUniformLocation(lightingShader.Program, "transparency"), 1); //Se pone 1 para poder visualizar la transparencia 
-        glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(modelAgua));
-        agua.Draw(lightingShader);
+        glUniform1i(glGetUniformLocation(AlbShader.Program, "transparency"), 1); //Se pone 1 para poder visualizar la transparencia 
+        glUniformMatrix4fv(glGetUniformLocation(AlbShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(modelAgua));
+        agua.Draw(AlbShader);
         glDisable(GL_BLEND);
 
         glm::mat4 modelFlotador(1);
-        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(modelFlotador));
-        flotador.Draw(shader);
+        glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(modelFlotador));
+        flotador.Draw(lightingShader);
 
         // Swap the buffers
         glfwSwapBuffers( window );

@@ -151,6 +151,8 @@
     <None Include="Shader\lighting.vs" />
     <None Include="Shader\modelLoading.frag" />
     <None Include="Shader\modelLoading.vs" />
+    <None Include="Shader\shaderAgua.vs" />
+    <None Include="Shader\shaderAlb.frag" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="alberca.cpp" />
