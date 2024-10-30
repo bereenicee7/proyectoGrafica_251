@@ -1,0 +1,62 @@
+newmtl child_swing:wood
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd madera.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd pasto.jpg
+Ni 1.00
+newmtl railSG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.50 0.50 0.50
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.00
+newmtl slideSG
+illum 4
+Kd 1.00 0.67 0.00
+Ka 1.00 0.67 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 0.87 0.10
+Ns 7.19
+newmtl stepSG
+illum 4
+Kd 0.90 0.76 0.42
+Ka 0.90 0.76 0.42
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.89 0.76 0.55
+Ns 1022.00
+newmtl supportsSG
+illum 4
+Kd 0.98 0.79 0.47
+Ka 0.98 0.79 0.47
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.00
+newmtl tunnelSG
+illum 4
+Kd 0.77 0.00 0.00
+Ka 0.77 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 0.00 0.00
+Ns 109.43
