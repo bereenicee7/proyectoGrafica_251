@@ -106,7 +106,7 @@ int main( )
     // Load models
     Model areaAlberca((char*)"Models/AreaAlberca.obj");
     Model agua((char*)"Models/agua.obj");
-    Model flotador((char*)"Models/flotador.obj");
+    Model flotador((char*)"Models/Flotador.obj");
     
 
     // Set texture units
