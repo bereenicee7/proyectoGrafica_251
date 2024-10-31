@@ -24,6 +24,7 @@
     <ProjectGuid>{877c92f8-7f1c-4e7f-857e-ef7f2c46a44d}</ProjectGuid>
     <RootNamespace>AreaAlberca</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ProyectoGrafica</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -155,7 +156,7 @@
     <None Include="Shader\shaderAgua.vs" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="alberca.cpp" />
+    <ClCompile Include="proyectoGrafica.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
