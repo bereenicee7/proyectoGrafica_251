@@ -53,7 +53,7 @@
     <None Include="Shader\shaderAgua.vs">
       <Filter>Archivos de origen\Shader</Filter>
     </None>
-    <None Include="Shader\shaderAlb.frag">
+    <None Include="Shader\shaderAgua.frag">
       <Filter>Archivos de origen\Shader</Filter>
     </None>
   </ItemGroup>

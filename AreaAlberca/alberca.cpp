@@ -37,6 +37,13 @@ bool keys[1024];
 GLfloat lastX = 400, lastY = 300;
 bool firstMouse = true;
 
+////Variables para animación agua alberca
+//bool active;
+//float speed = 0.4f;
+//float speed2 = 1.4f;
+//float tiempo;
+//float tiempo2 = glfwGetTime() * speed2;
+
 GLfloat deltaTime = 0.0f;
 GLfloat lastFrame = 0.0f;
 
@@ -101,14 +108,13 @@ int main( )
     Shader shader( "Shader/modelLoading.vs", "Shader/modelLoading.frag" );
     Shader lightingShader("Shader/lighting.vs", "Shader/lighting.frag");
     Shader lampShader("Shader/lamp.vs", "Shader/lamp.frag");
-    Shader AlbShader("Shader/shaderAlb.vs", "Shader/shaderAlb.frag");
+    Shader AlbShader("Shader/shaderAgua.vs", "Shader/shaderAgua.frag");
     
-
     
     // Load models
     Model areaAlberca((char*)"Models/AreaAlberca.obj");
     Model agua((char*)"Models/agua.obj");
-    Model flotador((char*)"Models/Flotador.obj");
+    Model flotador((char*)"Models/flotador.obj");
     
 
     // Set texture units
@@ -205,15 +211,16 @@ int main( )
         areaAlberca.Draw(lightingShader);
 
      
-        AlbShader.Use();
+        /*AlbShader.Use();
+        glUniform1f(glGetUniformLocation(AlbShader.Program, "time"), tiempo2);*/
 
         glm::mat4 modelAgua(1);
         glEnable(GL_BLEND); //Activa la funcionalidad para trabajar en el canal alfa
         glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(glGetUniformLocation(AlbShader.Program, "transparency"), 1); //Se pone 1 para poder visualizar la transparencia 
-        glUniformMatrix4fv(glGetUniformLocation(AlbShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(modelAgua));
-        agua.Draw(AlbShader);
+        glUniform1i(glGetUniformLocation(lightingShader.Program, "transparency"), 1); //Se pone 1 para poder visualizar la transparencia 
+        glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(modelAgua));
+        agua.Draw(lightingShader);
         glDisable(GL_BLEND);
 
         glm::mat4 modelFlotador(1);
@@ -221,7 +228,7 @@ int main( )
         flotador.Draw(lightingShader);
 
         // Swap the buffers
-        glfwSwapBuffers( window );
+        glfwSwapBuffers( window ); 
     }
     
     glfwTerminate( );
